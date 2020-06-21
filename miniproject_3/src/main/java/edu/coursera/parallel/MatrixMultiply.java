@@ -1,8 +1,6 @@
 package edu.coursera.parallel;
 
-import static edu.rice.pcdp.PCDP.forall;
 import static edu.rice.pcdp.PCDP.forall2dChunked;
-import static edu.rice.pcdp.PCDP.forallChunked;
 import static edu.rice.pcdp.PCDP.forseq2d;
 
 /**
