@@ -136,7 +136,7 @@ public class OneDimAveragingPhaserTest extends TestCase {
      */
     public void testFuzzyBarrier() {
         final double expected = 1.05;
-        final double speedup = parTestHelper(2 * 1024 * 1024, getNCores() * 1);
+        final double speedup = parTestHelper(2 * 1024, getNCores() * 1);
         final String errMsg = String.format("It was expected that the fuzzy barrier parallel implementation would " +
                 "run %fx faster than the barrier implementation, but it only achieved %fx speedup", expected, speedup);
         assertTrue(errMsg, speedup >= expected);
